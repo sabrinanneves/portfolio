@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+body {
+    background-color: #121212;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.purple-circle {
+    position: absolute;
+    top: 2%;
+    left: -2%;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(209, 21, 209);
+    filter: blur(100px);
+}
+
+.borda-translucida {
+    width: 80%;
+    max-width: 1222px;
+    height: 80vh;
+    border-radius: 24px;
+    border: 2px solid rgba(255, 255, 255, 0.50);
+    background: linear-gradient(107deg, rgba(255, 255, 255, 0.05) 3.44%, rgba(255, 255, 255, 0.02) 64.82%);
+    backdrop-filter: blur(15px);
+    position: relative;
+    overflow: hidden;
+    display: flex; 
+    align-items: center; /* Centralizar verticalmente os itens dentro do contêiner flexível */
+}
+
+.portfolio-title {
+    color: #F9FAFB;
+    font-family: Poppins;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin-left: 120px; /* Ajuste conforme necessário para alinhar com a descrição */
+}
+
+.design {
+    background: var(--Yellow-Red-Gradient, linear-gradient(90deg, #F59E0B 39.95%, #EF4444 77.15%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.developer {
+    background: var(--Purple-Pink-Gradient-2, linear-gradient(90deg, #8B5CF6 0%, #EC4899 43.9%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.description {
+    color: #E5E7EB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 5px;
+    width: 387px;
+    margin-top: 20px;
+}
+
+.pill-image {
+    
+    position: absolute;
+    bottom: 10px; /* Ajuste para posicionar verticalmente */
+    left: 1px; /* Ajuste  para posicionar horizontalmente */
+    z-index: 1; /* Certifica de que a imagem esteja acima da borda translúcida */
+    width: 143.03px;
+    height: 222.547px
+}
+   
+.Lua__imagem {
+        position: absolute;
+        top: 13%; /* Ajuste  para posicionar verticalmente */
+        right: 11%; /* Ajuste  para posicionar horizontalmente */
+        transform: translate(50%, -50%); /* Centraliza a imagem no canto superior direito */
+        z-index: 2; /* Certifica de que a imagem da lua esteja acima da borda translúcida */
+        width: 52px; /* Ajusta o tamanho  */
+        height:  52px; /* Ajusta o tamanho  */
+        border-radius: 50%; /* Certifica de que a imagem da lua tenha bordas redondas */
+    }
+
+    .Disco__rosa{
+        position: fixed; /* Mantém a imagem fixa mesmo durante o scroll */
+        bottom: 380px; /* Ajusta para posicionar verticalmente */
+        right: 290px; /* Ajusta para posicionar horizontalmente */
+        width: 79px;
+        height: 57.291px;
+    }
+    .Cubo__laranja{
+    
+        position: fixed; /* Mantém a imagem fixa mesmo durante o scroll */
+        bottom: -3px; /* Ajusta para posicionar verticalmente */
+        right: 100px; /* Ajusta para posicionar para posicionar horizontalmente */
+        width: 90px;
+        height: 90px;;
+    }
+
+    .botao-pequeno {
+        display: inline-flex;
+        align-items: center;
+        padding: 5px 10px;
+        margin-top: 18px; /* Espaço entre a descrição e os botões */
+        color: #FFF; /* Cor do texto */
+        text-decoration: none;
+        background-color: #F2672E; /* Cor de fundo */
+        border-radius: 5px; /* Bordas arredondadas */
+        margin-right: 10px; /* Espaço entre os botões */
+    }
+    
+    .botao-pequeno img {
+        margin-right: 5px; /* Espaço entre a imagem e o texto */
+        height: 20px; /* Ajuste da altura  */
+    }
